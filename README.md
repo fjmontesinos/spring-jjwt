@@ -42,3 +42,8 @@ curl -v -X POST "http://localhost:8080/login" -d '{"username":"greenrabbit948", 
 ```bash
 curl -s "http://localhost:8080/profile/details/greenrabbit948" --header "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmVlbnJhYmJpdDk0OCIsImV4cCI6MTQ2ODE0MDg1MiwiaXNzIjoiaW4uc2RxYWxpLmp3dCJ9.t9pqrOmYfaVkzuAQgo4D4VbN2PibQuHPuPA6RKYU-keTzbFAX58l77hQTc4Cq28HpjFOeiDvNpNEgilNHFOfVA"
 ```
+
+### Documentacion API REST
+Para consultar la documentacion del api no tienes mas que acceder a la siguiente url en tu navegador:
+[http://localhost:8080/jsondoc-ui.html?url=http://localhost:8080/jsondoc](http://localhost:8080/jsondoc-ui.html?url=http://localhost:8080/jsondoc)
+
