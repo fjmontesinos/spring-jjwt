@@ -35,7 +35,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
                 "/app/**/*",
                 "/index.html",
                 "/home.html",
-                "/signin.html"
+                "/signin.html",
+                "/jsondoc-ui.html",
+                "/jsondoc"
         };
         http.authorizeRequests()
                 .antMatchers(patterns)

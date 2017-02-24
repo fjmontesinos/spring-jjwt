@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 jar {
-	baseName = 'spring-jwt'
+	baseName = 'springboot-jjwt'
 	version = '0.0.1-SNAPSHOT'
 }
 
@@ -28,6 +28,10 @@ repositories {
 
 dependencies {
 	compile("io.jsonwebtoken:jjwt:0.6.0")
+
+	// JSONDoc dependencies
+	compile("org.jsondoc:spring-boot-starter-jsondoc:1.2.17")
+	compile("org.jsondoc:jsondoc-ui-webjar:1.2.17")
 
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-security')
